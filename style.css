@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 10px;
+}
+.block{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.rectangle{
+    height: 200px;
+}
+.custom-list {
+    list-style: none;
+    color: #5e4d00;
+}
+
+.custom-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.custom-list li::before {
+    content: "★";
+    color: orange;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+}
+.text{
+    overflow: hidden;
+}
+p{
+    width: 500px;
+    float: left;
+    margin: 0;
+}
+span{
+    font-weight: 600;
+    font-style: italic;
+}
+footer{
+    margin-top: 10px;
+}
